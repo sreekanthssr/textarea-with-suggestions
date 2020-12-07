@@ -1,0 +1,6 @@
+<form [formGroup]="form1">
+    <app-textarea-with-suggestions formControlName="test" class="" [setting]="setting"></app-textarea-with-suggestions>
+    <br>
+    <input type="text" formControlName="test2"/>
+</form>
+{{ form1.value | json}}
