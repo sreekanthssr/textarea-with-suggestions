@@ -1,4 +1,4 @@
-<div contenteditable="true" class="tws-main" (keyup)="contentUpdated($event)" [innerHtml]="currentValueHTML"></div>
+<div id="test" contenteditable="true" class="tws-main" (keyup)="contentUpdated($event)" [innerHtml]="currentValueHTML"></div>
 <div class="tws-options" *ngIf="options?.length && showOption" [style.top.px]="optionStyle?.top" [style.left.px]="optionStyle?.left">
     <ul>
         <li *ngFor="let option of options" (click)="optionSelected(option)">{{option}}</li>

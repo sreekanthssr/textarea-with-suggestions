@@ -26,3 +26,7 @@
 .tws-options ul li:last-child{
     border-bottom:0 none ;
 }
+.tws-space-span{
+    display: inline-block;
+    margin-right: 10px;
+}
